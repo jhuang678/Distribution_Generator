@@ -15,6 +15,13 @@
       - [Normal](#normal)
       - [Chi-squared](#chi-squared)
       - [Lognormal](#lognormal)
+      - [Student's t](#Student's t)
+      - [Bernoulli](#Bernoulli)
+      - [Binomial](#Binomial)
+      - [Geometric](#Geometric)
+      - [Negative Binomial](#Negative Binomial)
+      - [Poisson](#Poisson)
+- [Plot Example](#Plot Example)
 
 ## Description
 This is the python package for the **PDGenerator** Python library package that allows users to generate random variates from a wide range of probability distributions.  To use the library package, you can download it and import it in any python script without complicated installation process.
