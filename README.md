@@ -163,3 +163,10 @@ To generate poisson random variables, run `pd_generator.pois(n=1, lamb=1)`
 
 
 ## Plot Example
+
+![unif01_unif24](https://user-images.githubusercontent.com/100253011/236730748-ff6c056e-042a-4572-958e-123eb4521373.png)
+
+
+
+
+
