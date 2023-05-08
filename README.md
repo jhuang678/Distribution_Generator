@@ -26,7 +26,7 @@
 ## Description
 This is the python package for the **PDGenerator** Python library package that allows users to generate random variates from a wide range of probability distributions.  To use the library package, you can download it and import it in any python script without complicated installation process.
 
-The pdGenerator package contains 4 files: 
+The PDGenerator package contains 4 files: 
 1. PDGenerator.py
    1. Generate more than 15 types of random variables quickly and efficiently
    2. Require library: `math`.
