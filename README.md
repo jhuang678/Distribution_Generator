@@ -48,7 +48,7 @@ The pdGenerator package contains 4 files:
 1. Download the zip file.
 
 2. Install any library that you don't have in your environment 
-```commandline
+```sh
 pip install math
 pip install numpy
 pip install scipy
