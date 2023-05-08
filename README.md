@@ -5,17 +5,17 @@ This is the python package for the **PDGenerator** Python library package that a
 The pdGenerator package contains 4 files: 
 1. PDGenerator.py
    1. Generate more than 15 types of random variables quickly and efficiently
-   2. Require library:`math`.
+   2. Require library: `math`.
 
 
 2. GOFTester.py
    1. Contains goodness-of-fit tests for each type of random variable generated from PDGenerator.py.
-   2. Require library:`numpy`, `scipy`.
+   2. Require library: `numpy`, `scipy`.
 
 
 3. plot.py
    1. Provides histograms from the random variables generated from PDGenerator.py.
-   2. Require library:`numpy`, `scipy`, and `matplotlib`.
+   2. Require library: `numpy`, `scipy`, and `matplotlib`.
 
 
 4. README.md.
