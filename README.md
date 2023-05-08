@@ -156,7 +156,7 @@ To generate NegBin random variables, run `pd_generator.negbin(n=1, m=2, p=0.6)`
 
 
 #### Poisson 
-To generate poisson random variables, run `pd_generator.pois(n=1, lamb=1)`
+To generate Poisson random variables, run `pd_generator.pois(n=1, lamb=1)`
 * It returns a list of poisson random variables.
 * n is the number of random variables that been returned.
 * lamb is the expected value of each time unit.
@@ -166,7 +166,32 @@ To generate poisson random variables, run `pd_generator.pois(n=1, lamb=1)`
 
 ![unif01_unif24](https://user-images.githubusercontent.com/100253011/236730748-ff6c056e-042a-4572-958e-123eb4521373.png)
 
+![dunif25](https://user-images.githubusercontent.com/100253011/236730967-591a46dd-abf6-4846-b429-3508687c8b07.png)
 
+![tri012](https://user-images.githubusercontent.com/100253011/236731034-077bfc44-f68a-4d45-949a-834f0740e429.png)
 
+![tri014](https://user-images.githubusercontent.com/100253011/236731089-2463ccb3-0de8-4d1c-b25c-ab42842a9646.png)
 
+![expo1](https://user-images.githubusercontent.com/100253011/236731099-974139d0-a23d-4eb5-a4e0-cd5bf03a4f80.png)
 
+![expo2](https://user-images.githubusercontent.com/100253011/236731107-daca010e-6ca5-48ee-9818-7393c9c176a7.png)
+
+![weibull](https://user-images.githubusercontent.com/100253011/236731116-70d4a031-1870-41d4-a0e7-5e284e0a0bac.png)
+
+![gamma32](https://user-images.githubusercontent.com/100253011/236731125-b10f7cd4-6a69-441c-af8d-69d551e84c81.png)
+
+![norm64](https://user-images.githubusercontent.com/100253011/236731235-e7eb5b19-1c55-4a44-8187-b9f572cd57e1.png)
+
+![lognorm01](https://user-images.githubusercontent.com/100253011/236731252-fbb06e4f-7878-4715-a94c-6dcf226851da.png)
+
+![chisquared3](https://user-images.githubusercontent.com/100253011/236731299-0de3f489-7e58-4436-9d60-dcac67b56b55.png)
+
+![bern](https://user-images.githubusercontent.com/100253011/236731307-43e1fa8d-ede6-4ac2-af69-c59cdf98d6d6.png)
+
+![bino3](https://user-images.githubusercontent.com/100253011/236731326-441064a3-02d0-4978-a96a-5a2f72d5a881.png)
+
+![geom](https://user-images.githubusercontent.com/100253011/236731346-f18fef50-a043-46cf-97d0-b4c8bc559a1e.png)
+
+![negbin3](https://user-images.githubusercontent.com/100253011/236731364-82c5d44b-6357-49a7-b21c-370bec2401d2.png)
+
+![poisson2](https://user-images.githubusercontent.com/100253011/236731389-8a67ebc2-8607-4fc6-9bca-7301c68e9bfc.png)
