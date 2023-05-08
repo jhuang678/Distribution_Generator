@@ -15,11 +15,11 @@
       - [Normal](#normal)
       - [Chi-squared](#chi-squared)
       - [Lognormal](#lognormal)
-      - [Student's t](#Student's t)
+      - [Student's t]
       - [Bernoulli](#Bernoulli)
       - [Binomial](#Binomial)
       - [Geometric](#Geometric)
-      - [Negative Binomial](#Negative Binomial)
+      - [Negative Binomial]
       - [Poisson](#Poisson)
 - [Plot Example](#Plot Example)
 
