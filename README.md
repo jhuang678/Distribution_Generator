@@ -1,4 +1,21 @@
 # PDGenerator: Probability Distribution Generation Python Library Package
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [How to run it](#how-to-run-it)
+   - [Set up random seed](#set-up-random-seed)
+   - [Examples](#examples)
+      - [Uniform](#uniform)
+      - [Discrete Uniform](#discrete-uniform)
+      - [Triangular](#triangular)
+      - [Exponential](#exponential)
+      - [Weibull](#weibull)
+      - [Gamma/Erlang-n](#gammaerlang-n)
+      - [Normal](#normal)
+      - [Chi-squared](#chi-squared)
+      - [Lognormal](#lognormal)
+
 ## Description
 This is the python package for the **PDGenerator** Python library package that allows users to generate random variates from a wide range of probability distributions.  To use the library package, you can download it and import it in any python script without complicated installation process.
 
