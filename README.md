@@ -37,13 +37,19 @@ pip install matplotlib
       3. There are many more options.
    2. You may use the provided `GOFTester.py` or `plot.py` to test `PDGenerator.py`.
 
-4. Place PDGenerator.py in the same file with your script and import it in the script. For example: `import PDGenerator as pdg`
+4. Place PDGenerator.py in the same file with your script and import it in the script. For example: 
+```python
+import PDGenerator as pdg
+```
 
 ## How to run it 
 Here are all the examples of generate random variant through PDGenerator.
 ### Set up random seed 
 1. Once you have import PDGenerator, first you need to set up a random seed 
-by code `pd_generator = pdg.PDGenerator(seed=int)`
+by code 
+```python
+pd_generator = pdg.PDGenerator(seed=int)
+```
    1. You may input any integer for the seed.
 2. Then you are good to generate any random variant. 
 ### Examples
