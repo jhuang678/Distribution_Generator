@@ -86,7 +86,8 @@ pd_generator.unif(n=1, a=0, b=1)
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
 
-![unif01_unif24](https://user-images.githubusercontent.com/100253011/236730748-ff6c056e-042a-4572-958e-123eb4521373.png)
+<img src="unif01_unif24.png" alt="hist" width="500"/>
+
 
 #### Discrete Uniform
 To generate discrete uniform random variables,  run 
@@ -98,7 +99,7 @@ pd_generator.disc_unif(n=1, a=0, b=1)
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
 
-![dunif25](https://user-images.githubusercontent.com/100253011/236730967-591a46dd-abf6-4846-b429-3508687c8b07.png)
+<img src="dunif25.png" alt="hist" width="500"/>
 
 #### Triangular
 To generate triangular random variables,  run 
@@ -109,11 +110,11 @@ pd_generator.triangular(n=1, a=0, b=2, c=1)
 * n is the number of random variables that have been returned.
 * a is the lower point of the triangular random variables.
 * b is the upper point of the triangular random variables.
-* c is the most common point of the triangular random variables. It is the optional input. If it is blanked, it will assume that c is (a+b)/2 .
+* c is the most common point of the triangular random variables. It is the optional input. If it is blanked, it will assume that c is (a+b)/2.
 
-![tri012](https://user-images.githubusercontent.com/100253011/236731034-077bfc44-f68a-4d45-949a-834f0740e429.png)
+<img src="tri012.png" alt="hist" width="500"/>
 
-![tri014](https://user-images.githubusercontent.com/100253011/236731089-2463ccb3-0de8-4d1c-b25c-ab42842a9646.png)
+<img src="tri014.png" alt="hist" width="500"/>
 
 #### Exponential 
 To generate exponential random variables,  run 
@@ -121,12 +122,12 @@ To generate exponential random variables,  run
 pd_generator.expo(n=1, lamb=1)
 ```
 * It returns a list of exponential random variables.
-* n is the number of random variables that been returned.
+* n is the number of random variables that have been returned.
 * lamb is the rate parameter of the exponential random variables.
 
-![expo1](https://user-images.githubusercontent.com/100253011/236731099-974139d0-a23d-4eb5-a4e0-cd5bf03a4f80.png)
+<img src="expo1.png" alt="hist" width="500"/>
 
-![expo2](https://user-images.githubusercontent.com/100253011/236731107-daca010e-6ca5-48ee-9818-7393c9c176a7.png)
+<img src="expo2.png" alt="hist" width="500"/>
 
 #### Weibull
 To generate weibull random variables, run 
@@ -138,7 +139,7 @@ pd_generator.weibull(n=1, lamb=1, beta=0.9)
 * lamb is the scale parameter of the Weibull random variables.
 * beta is the shape parameter of the Weibull random variables.
 
-![weibull](https://user-images.githubusercontent.com/100253011/236731116-70d4a031-1870-41d4-a0e7-5e284e0a0bac.png)
+<img src="weibull.png" alt="hist" width="500"/>
 
 #### Gamma/Erlang-n
 To generate gamma random variables, run 
@@ -150,7 +151,7 @@ pd_generator.erlang(n=1, m=1, lamb=1)
 * m is the number of Expo(λ)  which been added.
 * lamb is the scale parameter of the gamma random variables.
 
-![gamma32](https://user-images.githubusercontent.com/100253011/236731125-b10f7cd4-6a69-441c-af8d-69d551e84c81.png)
+<img src="gamma32.png" alt="hist" width="500"/>
 
 #### Normal
 To generate normal random variables, run 
@@ -162,7 +163,7 @@ pd_generator.norm(n=1, mu=0, sigma=1)
 * mu is the mean of the normal distribution.
 * sigma is the standard deviation of the normal distribution.
 
-![norm64](https://user-images.githubusercontent.com/100253011/236731235-e7eb5b19-1c55-4a44-8187-b9f572cd57e1.png)
+<img src="norm64.png" alt="hist" width="500"/>
 
 #### Chi-squared 
 To generate chi-squared random variables, run 
@@ -173,19 +174,20 @@ pd_generator.chi2(n=1, m=1)
 * n is the number of random variables that have been returned.
 * m is the number of Z^2  which been added.
 
-![chisquared3](https://user-images.githubusercontent.com/100253011/236731299-0de3f489-7e58-4436-9d60-dcac67b56b55.png)
+<img src="chisquared3.png" alt="hist" width="500"/>
 
 #### Lognormal 
 To generate log normal random variables, run 
 ```python
 pd_generator.lognorm(n=1, mu=0, sigma=1)
 ```
-* It returns a list of log normal random variables.
+* It returns a list of log-normal random variables.
 * n is the number of random variables that have been returned.
 * mu is the mean of the normal distribution.
 * sigma is the standard deviation of the normal distribution.
 
-![lognorm01](https://user-images.githubusercontent.com/100253011/236731252-fbb06e4f-7878-4715-a94c-6dcf226851da.png)
+
+<img src="lognorm01.png" alt="hist" width="500"/>
 
 #### Student's t 
 To generate t random variables,  run 
@@ -206,7 +208,7 @@ pd_generator.bern(n=1, p=0.6)
 * n is the number of random variables that have been returned.
 * p is the probability of success.
 
-![bern](https://user-images.githubusercontent.com/100253011/236731307-43e1fa8d-ede6-4ac2-af69-c59cdf98d6d6.png)
+<img src="bern.png" alt="hist" width="500"/>
 
 #### Binomial 
 To generate Binomial random variables,  run 
@@ -218,7 +220,7 @@ pd_generator.bino(n=1, m=2, p=0.6)
 * p is the probability of success.
 * m is the number of Bern(p)  which been added.
 
-![bino3](https://user-images.githubusercontent.com/100253011/236731326-441064a3-02d0-4978-a96a-5a2f72d5a881.png)
+<img src="bino3.png" alt="hist" width="500"/>
 
 #### Geometric 
 To generate Geometric random variables, run 
@@ -229,7 +231,7 @@ pd_generator.geom(n=1, p=0.6)
 * n is the number of random variables that have been returned.
 * p is the probability of success.
 
-![geom](https://user-images.githubusercontent.com/100253011/236731346-f18fef50-a043-46cf-97d0-b4c8bc559a1e.png)
+<img src="geom.png" alt="hist" width="500"/>
 
 
 #### Negative Binomial 
@@ -242,7 +244,7 @@ pd_generator.negbin(n=1, m=2, p=0.6)
 * p is the the probability of success.
 * m is the number of Geom(p)  which been added.
 
-![negbin3](https://user-images.githubusercontent.com/100253011/236731364-82c5d44b-6357-49a7-b21c-370bec2401d2.png)
+<img src="negbin3.png" alt="hist" width="500"/>
 
 #### Poisson 
 To generate Poisson random variables, run 
@@ -253,6 +255,5 @@ pd_generator.pois(n=1, lamb=1)
 * n is the number of random variables that have been returned.
 * lamb is the expected value of each time unit.
 
-![poisson2](https://user-images.githubusercontent.com/100253011/236731389-8a67ebc2-8607-4fc6-9bca-7301c68e9bfc.png)
-
+<img src="poisson2.png" alt="hist" width="500"/>
 
