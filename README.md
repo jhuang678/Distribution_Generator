@@ -87,6 +87,7 @@ pd_generator.unif(n=1, a=0, b=1)
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
 
+![unif01_unif24](https://user-images.githubusercontent.com/100253011/236730748-ff6c056e-042a-4572-958e-123eb4521373.png)
 
 #### Discrete Uniform
 To generate discrete uniform random variables,  run 
@@ -97,6 +98,8 @@ pd_generator.disc_unif(n=1, a=0, b=1)
 * n is the number of random variables that been returned.
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
+
+![dunif25](https://user-images.githubusercontent.com/100253011/236730967-591a46dd-abf6-4846-b429-3508687c8b07.png)
 
 #### Triangular
 To generate triangular random variables,  run 
