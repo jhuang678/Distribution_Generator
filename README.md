@@ -21,7 +21,6 @@
       - [Geometric](#Geometric)
       - [Negative Binomial](#Geometric)
       - [Poisson](#Poisson)
-- [Plot Example](#Plot)
 
 ## Description
 This is the Python package for the **PDGenerator** Python library package that allows users to generate random variates from a wide range of probability distributions.  To use the library package, you can download it and import it in any Python script without a complicated installation process.
