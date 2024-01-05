@@ -270,7 +270,7 @@ pd_generator.pois(n=1, lamb=1)
 ## Conclusion
 Random variable generation is a crucial area of study with applications in numerous fields ranging from simulation and engineering to computer science, finance, physics, and healthcare. The RVGenerator package provides a convenient solution to generate various types of random variables. The package has been optimized for efficient and fast execution, and its performance has been validated through various goodness-of-fit tests. Although the RVGenerator package has achieved satisfactory results, there is always room for improvement. For example, it would be beneficial to conduct stability time tests for each random variant, perform additional goodness-of-fit tests, and complete the Negative Binomial test function. Nonetheless, RVGenerator provides an excellent starting point for generating random variables and can be an asset for researchers and practitioners alike.
 
-## REFERENCE
+## Reference
 
 - Law, A. M. (2015). Simulation modeling and analysis (5th Edition). New York: McGraw-Hill. [\[1\]](https://www.mcgrawhill.ca/)
 - Mersenne Twister: A 623-Dimensionally Equidistributed Uniform Pseudo-Random Number Generator [\[2\]](https://dl.acm.org/doi/pdf/10.1145/272991.272995)
