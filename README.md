@@ -22,8 +22,9 @@
       - [Geometric](#Geometric)
       - [Negative Binomial](#Geometric)
       - [Poisson](#Poisson)
+- [Test Result & Summary](#test)
 
-##Abstract
+## Abstract
 
 RVGenerator is a Python library package that allows users to generate random variates from a wide range of probability distributions. With support for over 15 distributions, including Uniform(a,b), Triangular(a,b,c), Exponential(λ), Weibull (λ, β), Gamma(α,λ)/Erlang_n (λ), Chi-squared(n), Normal (μ, σ^2), Lognormal(µ,σ^2), Student's t(n), Bernoulli(p), Binomial(n,p), Geometric(p), Poisson (λ), RVGenerator is a versatile tool for simulation and modeling tasks in engineering and science. 
 
@@ -293,7 +294,7 @@ The null hypothesis is set \( H_0: X_1, X_2…X_{10,000} \) (i.i,d) ∼ pmf/pdf 
 
 After the single test with 10,000 observations, all the random variables accepted the null hypothesis. However, for low p-value results, it is difficult to determine whether it is a bad generator or simply bad luck in a single test.
 
-#### 4.2.2 1000 Tests Result with 1000 of random variants (n=1000)
+#### 1000 Tests Result with 1000 of random variants (n=1000)
 The purpose of testing 1000 of different random seed cases is to validate the stability of each random variant generating function. In this test, each type of distribution has generated 1,000 random variants for each test, and for each test I’m using different random seed from 4 to 1004. The acceptance rate is defined below:
 
 The null hypothesis is set \( H_0: X_1, X_2…X_{1,000} \) (i.i,d) ∼ pmf/pdf f(x).
