@@ -27,13 +27,13 @@
 
 ## Abstract
 
-RVGenerator is a Python library package that allows users to generate random variates from a wide range of probability distributions. With support for over 15 distributions, including Uniform(a,b), Triangular(a,b,c), Exponential(λ), Weibull (λ, β), Gamma(α,λ)/Erlang_n (λ), Chi-squared(n), Normal (μ, σ^2), Lognormal(µ,σ^2), Student's t(n), Bernoulli(p), Binomial(n,p), Geometric(p), Poisson (λ), RVGenerator is a versatile tool for simulation and modeling tasks in engineering and science. 
+PDGenerator is a Python library package that allows users to generate random variates from a wide range of probability distributions. With support for over 15 distributions, including Uniform(a,b), Triangular(a,b,c), Exponential(λ), Weibull (λ, β), Gamma(α,λ)/Erlang_n (λ), Chi-squared(n), Normal (μ, σ^2), Lognormal(µ,σ^2), Student's t(n), Bernoulli(p), Binomial(n,p), Geometric(p), Poisson (λ), PDGenerator is a versatile tool for simulation and modeling tasks in engineering and science. 
 
 To ensure accuracy and reliability, the library uses well-established methods for generating pseudo-random variants and applying the Inverse Transform Theorem and Convolution Method to generate other distributed random variates. These methods are described in detail in *Simulation Modeling and Analysis, 5th (Law, 2015)* [1]. 
 
-Additionally, all distributions in RVGenerator have been thoroughly tested using rigorous goodness of fit tests, including Chi-squared and Kolmogorov-Smirnov tests, and have passed with a 95% confidence level, confirming that the generated data conforms to the distribution defined by the user. 
+Additionally, all distributions in PDGenerator have been thoroughly tested using rigorous goodness of fit tests, including Chi-squared and Kolmogorov-Smirnov tests, and have passed with a 95% confidence level, confirming that the generated data conforms to the distribution defined by the user. 
 
-Overall, RVGenerator is a valuable resource for anyone seeking to generate random variates from a range of probability distributions, with reliable results that have been rigorously tested and validated.
+Overall, PDGenerator is a valuable resource for anyone seeking to generate random variates from a range of probability distributions, with reliable results that have been rigorously tested and validated.
 
 ## Description
 This is the Python package for the **PDGenerator** Python library package that allows users to generate random variates from a wide range of probability distributions.  To use the library package, you can download it and import it in any Python script without a complicated installation process.
@@ -268,7 +268,7 @@ pd_generator.pois(n=1, lamb=1)
 <img src="img/poisson2.png" alt="hist" width="500"/>
 
 ## Conclusion
-Random variable generation is a crucial area of study with applications in numerous fields ranging from simulation and engineering to computer science, finance, physics, and healthcare. The RVGenerator package provides a convenient solution to generate various types of random variables. The package has been optimized for efficient and fast execution, and its performance has been validated through various goodness-of-fit tests. Although the RVGenerator package has achieved satisfactory results, there is always room for improvement. For example, it would be beneficial to conduct stability time tests for each random variant, perform additional goodness-of-fit tests, and complete the Negative Binomial test function. Nonetheless, RVGenerator provides an excellent starting point for generating random variables and can be an asset for researchers and practitioners alike.
+Random variable generation is a crucial area of study with applications in numerous fields ranging from simulation and engineering to computer science, finance, physics, and healthcare. The PDGenerator package provides a convenient solution to generate various types of random variables. The package has been optimized for efficient and fast execution, and its performance has been validated through various goodness-of-fit tests. Although the PDGenerator package has achieved satisfactory results, there is always room for improvement. For example, it would be beneficial to conduct stability time tests for each random variant, perform additional goodness-of-fit tests, and complete the Negative Binomial test function. Nonetheless, PDGenerator provides an excellent starting point for generating random variables and can be an asset for researchers and practitioners alike.
 
 ## Reference
 
