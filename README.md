@@ -96,7 +96,7 @@ pd_generator.unif(n=1, a=0, b=1)
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
 
-<img src="unif01_unif24.png" alt="hist" width="500"/>
+<img src="img/unif01_unif24.png" alt="hist" width="500"/>
 
 
 #### Discrete Uniform
@@ -109,7 +109,7 @@ pd_generator.disc_unif(n=1, a=0, b=1)
 * a is the lower bound of the uniform random variables.
 * b is the upper bound of the uniform random variables.
 
-<img src="dunif25.png" alt="hist" width="500"/>
+<img src="img/dunif25.png" alt="hist" width="500"/>
 
 #### Triangular
 To generate triangular random variables,  run 
@@ -122,9 +122,9 @@ pd_generator.triangular(n=1, a=0, b=2, c=1)
 * b is the upper point of the triangular random variables.
 * c is the most common point of the triangular random variables. It is the optional input. If it is blanked, it will assume that c is (a+b)/2.
 
-<img src="tri012.png" alt="hist" width="500"/>
+<img src="img/tri012.png" alt="hist" width="500"/>
 
-<img src="tri014.png" alt="hist" width="500"/>
+<img src="img/tri014.png" alt="hist" width="500"/>
 
 #### Exponential 
 To generate exponential random variables,  run 
@@ -135,9 +135,9 @@ pd_generator.expo(n=1, lamb=1)
 * n is the number of random variables that have been returned.
 * lamb is the rate parameter of the exponential random variables.
 
-<img src="expo1.png" alt="hist" width="500"/>
+<img src="img/expo1.png" alt="hist" width="500"/>
 
-<img src="expo2.png" alt="hist" width="500"/>
+<img src="img/expo2.png" alt="hist" width="500"/>
 
 #### Weibull
 To generate weibull random variables, run 
@@ -149,7 +149,7 @@ pd_generator.weibull(n=1, lamb=1, beta=0.9)
 * lamb is the scale parameter of the Weibull random variables.
 * beta is the shape parameter of the Weibull random variables.
 
-<img src="weibull.png" alt="hist" width="500"/>
+<img src="img/weibull.png" alt="hist" width="500"/>
 
 #### Gamma/Erlang-n
 To generate gamma random variables, run 
@@ -161,7 +161,7 @@ pd_generator.erlang(n=1, m=1, lamb=1)
 * m is the number of Expo(λ)  which been added.
 * lamb is the scale parameter of the gamma random variables.
 
-<img src="gamma32.png" alt="hist" width="500"/>
+<img src="img/gamma32.png" alt="hist" width="500"/>
 
 #### Normal
 To generate normal random variables, run 
@@ -173,7 +173,7 @@ pd_generator.norm(n=1, mu=0, sigma=1)
 * mu is the mean of the normal distribution.
 * sigma is the standard deviation of the normal distribution.
 
-<img src="norm64.png" alt="hist" width="500"/>
+<img src="img/norm64.png" alt="hist" width="500"/>
 
 #### Chi-squared 
 To generate chi-squared random variables, run 
@@ -184,7 +184,7 @@ pd_generator.chi2(n=1, m=1)
 * n is the number of random variables that have been returned.
 * m is the number of Z^2  which been added.
 
-<img src="chisquared3.png" alt="hist" width="500"/>
+<img src="img/chisquared3.png" alt="hist" width="500"/>
 
 #### Lognormal 
 To generate log normal random variables, run 
@@ -197,7 +197,7 @@ pd_generator.lognorm(n=1, mu=0, sigma=1)
 * sigma is the standard deviation of the normal distribution.
 
 
-<img src="lognorm01.png" alt="hist" width="500"/>
+<img src="img/lognorm01.png" alt="hist" width="500"/>
 
 #### Student's t 
 To generate t random variables,  run 
@@ -218,7 +218,7 @@ pd_generator.bern(n=1, p=0.6)
 * n is the number of random variables that have been returned.
 * p is the probability of success.
 
-<img src="bern.png" alt="hist" width="500"/>
+<img src="img/bern.png" alt="hist" width="500"/>
 
 #### Binomial 
 To generate Binomial random variables,  run 
@@ -230,7 +230,7 @@ pd_generator.bino(n=1, m=2, p=0.6)
 * p is the probability of success.
 * m is the number of Bern(p)  which been added.
 
-<img src="bino3.png" alt="hist" width="500"/>
+<img src="img/bino3.png" alt="hist" width="500"/>
 
 #### Geometric 
 To generate Geometric random variables, run 
@@ -241,7 +241,7 @@ pd_generator.geom(n=1, p=0.6)
 * n is the number of random variables that have been returned.
 * p is the probability of success.
 
-<img src="geom.png" alt="hist" width="500"/>
+<img src="img/geom.png" alt="hist" width="500"/>
 
 
 #### Negative Binomial 
@@ -254,7 +254,7 @@ pd_generator.negbin(n=1, m=2, p=0.6)
 * p is the the probability of success.
 * m is the number of Geom(p)  which been added.
 
-<img src="negbin3.png" alt="hist" width="500"/>
+<img src="img/negbin3.png" alt="hist" width="500"/>
 
 #### Poisson 
 To generate Poisson random variables, run 
@@ -265,7 +265,7 @@ pd_generator.pois(n=1, lamb=1)
 * n is the number of random variables that have been returned.
 * lamb is the expected value of each time unit.
 
-<img src="poisson2.png" alt="hist" width="500"/>
+<img src="img/poisson2.png" alt="hist" width="500"/>
 
 ## Conclusion
 Random variable generation is a crucial area of study with applications in numerous fields ranging from simulation and engineering to computer science, finance, physics, and healthcare. The RVGenerator package provides a convenient solution to generate various types of random variables. The package has been optimized for efficient and fast execution, and its performance has been validated through various goodness-of-fit tests. Although the RVGenerator package has achieved satisfactory results, there is always room for improvement. For example, it would be beneficial to conduct stability time tests for each random variant, perform additional goodness-of-fit tests, and complete the Negative Binomial test function. Nonetheless, RVGenerator provides an excellent starting point for generating random variables and can be an asset for researchers and practitioners alike.
