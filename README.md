@@ -22,7 +22,7 @@
       - [Geometric](#Geometric)
       - [Negative Binomial](#Geometric)
       - [Poisson](#Poisson)
-- [Test Result & Summary](#test)
+- [Test Result & Summary](#test-result-&-summary)
 
 ## Abstract
 
