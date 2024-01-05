@@ -22,7 +22,7 @@
       - [Geometric](#Geometric)
       - [Negative Binomial](#Geometric)
       - [Poisson](#Poisson)
-- [Test Result & Summary](#test-result-&-summary)
+- [Test Result](#test-result)
 
 ## Abstract
 
@@ -268,14 +268,12 @@ pd_generator.pois(n=1, lamb=1)
 
 Here's the content transferred into Markdown format, including the tables from the image:
 
-## Test Result & Summary
+## Test Result
 
 ### Overall
 To ensure the reliability and quality of the library, we performed rigorous testing, including multiple goodness of fit tests such as the Chi-squared and Kolmogorov-Smirnov tests, to verify that the generated data conforms to the distribution defined by the user.
 
-### Test Result
-
-#### Single Test Result with 10,000 of random variants (n=10,000)
+### Single Test Result with 10,000 of random variants (n=10,000)
 To test the accuracy of the generated data, we ran a single test with 10,000 random variants for each distribution. The Chi-squared or Kolmogorov-Smirnov test was used to validate the data with a 95% confidence interval (α=0.05). The RVGenerator’s random seed was set to 3 for all these single tests.
 
 The null hypothesis is set \( H_0: X_1, X_2…X_{10,000} \) (i.i,d) ∼ pmf/pdf f(x).
@@ -294,7 +292,7 @@ The null hypothesis is set \( H_0: X_1, X_2…X_{10,000} \) (i.i,d) ∼ pmf/pdf 
 
 After the single test with 10,000 observations, all the random variables accepted the null hypothesis. However, for low p-value results, it is difficult to determine whether it is a bad generator or simply bad luck in a single test.
 
-#### 1000 Tests Result with 1000 of random variants (n=1000)
+### 1000 Tests Result with 1000 of random variants (n=1000)
 The purpose of testing 1000 of different random seed cases is to validate the stability of each random variant generating function. In this test, each type of distribution has generated 1,000 random variants for each test, and for each test I’m using different random seed from 4 to 1004. The acceptance rate is defined below:
 
 The null hypothesis is set \( H_0: X_1, X_2…X_{1,000} \) (i.i,d) ∼ pmf/pdf f(x).
