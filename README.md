@@ -22,7 +22,8 @@
       - [Geometric](#Geometric)
       - [Negative Binomial](#Geometric)
       - [Poisson](#Poisson)
-- [Test Result](#test-result)
+- [Conclusion](#conclusion)
+- [Reference](#reference)
 
 ## Abstract
 
@@ -266,52 +267,14 @@ pd_generator.pois(n=1, lamb=1)
 
 <img src="poisson2.png" alt="hist" width="500"/>
 
-Here's the content transferred into Markdown format, including the tables from the image:
+## Conclusion
+Random variable generation is a crucial area of study with applications in numerous fields ranging from simulation and engineering to computer science, finance, physics, and healthcare. The RVGenerator package provides a convenient solution to generate various types of random variables. The package has been optimized for efficient and fast execution, and its performance has been validated through various goodness-of-fit tests. Although the RVGenerator package has achieved satisfactory results, there is always room for improvement. For example, it would be beneficial to conduct stability time tests for each random variant, perform additional goodness-of-fit tests, and complete the Negative Binomial test function. Nonetheless, RVGenerator provides an excellent starting point for generating random variables and can be an asset for researchers and practitioners alike.
 
-## Test Result
+## REFERENCE
 
-### Overall
-To ensure the reliability and quality of the library, we performed rigorous testing, including multiple goodness of fit tests such as the Chi-squared and Kolmogorov-Smirnov tests, to verify that the generated data conforms to the distribution defined by the user.
-
-### Single Test Result with 10,000 of random variants (n=10,000)
-To test the accuracy of the generated data, we ran a single test with 10,000 random variants for each distribution. The Chi-squared or Kolmogorov-Smirnov test was used to validate the data with a 95% confidence interval (α=0.05). The RVGenerator’s random seed was set to 3 for all these single tests.
-
-The null hypothesis is set \( H_0: X_1, X_2…X_{10,000} \) (i.i,d) ∼ pmf/pdf f(x).
-
-*Test Result Summary Table*
-
-| Distribution     | Chi-Squared Test | Kolmogorov-Smirnov Test | Other Goodness of Fit Test |
-|------------------|------------------|-------------------------|---------------------------|
-| Unif(0,1)        | ACCEPT (p-value: 0.35)           | N/A                     | Correlation Test ACCEPT (p-value: 0.31 )         |
-| ...              | ...              | ...                     | ...                       |
-| Poisson(3)       | ACCEPT           | N/A                     | N/A                       |
-|                  | p-value: 1       |                         |                           |
-| NegBin(2,0.6)    | N/A              | N/A                     | N/A                       |
-
-*Note: The table has been truncated for brevity.*
-
-After the single test with 10,000 observations, all the random variables accepted the null hypothesis. However, for low p-value results, it is difficult to determine whether it is a bad generator or simply bad luck in a single test.
-
-### 1000 Tests Result with 1000 of random variants (n=1000)
-The purpose of testing 1000 of different random seed cases is to validate the stability of each random variant generating function. In this test, each type of distribution has generated 1,000 random variants for each test, and for each test I’m using different random seed from 4 to 1004. The acceptance rate is defined below:
-
-The null hypothesis is set \( H_0: X_1, X_2…X_{1,000} \) (i.i,d) ∼ pmf/pdf f(x).
-
-acceptance rate = (number of tests which ACCEPT \( H_0 \))/(The total number of tests) = (number of tests which ACCEPT \( H_0 \))/1000
-
-*Acceptance Rate Summary Table*
-
-| Distribution | Chi-Squared Test | Kolmogorov-Smirnov Test | Other Goodness of Fit Test |
-|--------------|------------------|-------------------------|---------------------------|
-| Unif(0,1)    | ACCEPT RATE      | N/A                     | N/A                       |
-|              | 96.2%            |                         |                           |
-| ...          | ...              | ...                     | ...                       |
-| Poisson(2)   | ACCEPT RATE      | N/A                     | N/A                       |
-|              | 99.9%            |                         |                           |
-
-*Note: The table has been truncated for brevity.*
-
-Based on the results of testing 1000 different random seed cases, the RVGenerator has been found to have high stability for generating a variety of random variables. The acceptance rate for each distribution is more or close to 95%, indicating that the null hypothesis of the Chi-Squared Test, Kolmogorov-Smirnov Test, or other Goodness of Fit Test is accepted in most cases. This means that the generated random variables follow the expected probability distribution, which is a desirable characteristic of any random variable generator. Overall, these results suggest that the RVGenerator can be relied upon to generate random variables with a high degree of stability and accuracy.
-
-(Note: In the Markdown format, the complex equations and special formatting such as subscript and italic are not represented as they would be in LaTeX, and the tables have been simplified. Additionally, due to the truncation of tables for brevity, not all the data is shown. The LaTeX notation for hypothesis testing does not have a direct representation in standard Markdown, so it has been represented using inline code formatting for the mathematical parts.)
-
+- Law, A. M. (2015). Simulation modeling and analysis (5th Edition). New York: McGraw-Hill. [\[1\]](https://www.mcgrawhill.ca/)
+- Mersenne Twister: A 623-Dimensionally Equidistributed Uniform Pseudo-Random Number Generator [\[2\]](https://dl.acm.org/doi/pdf/10.1145/272991.272995)
+- Mersenne Twister [\[3\]](https://en.wikipedia.org/wiki/Mersenne_Twister)
+- NumPy. (2022). Retrieved 1 April 2022 [\[4\]](https://numpy.org/)
+- SciPy.org — SciPy.org. (2022). Retrieved 1 April 2022 [\[5\]](https://www.scipy.org/)
+- Matplotlib: Python plotting — Matplotlib. (2022). Retrieved 1 April 2022 [\[6\]](https://matplotlib.org/)
